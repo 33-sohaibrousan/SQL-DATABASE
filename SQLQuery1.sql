@@ -4,9 +4,10 @@ CREATE TABLE customers (
     PersonID int,
 	FirstName varchar(255),
     LastName varchar(255),
-    Address varchar(255),
     City varchar(255)
 );
+
+
 create table orders(
 id int,
 account_id int,
@@ -24,3 +25,6 @@ region_id int,
 email varchar,
 age int
 );
+
+select * from customers ;
+insert into customers values (2 , 'suhaib' , 'rousan' , 'sama' );
